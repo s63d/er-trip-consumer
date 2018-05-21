@@ -13,7 +13,7 @@ urls:
   account-service: "localhost:8081"
   vehicle-service: "localhost:8080"
 server:
-  port: 8082
+  port: 8083
 
 ---
 spring:

@@ -9,5 +9,5 @@ import org.springframework.cloud.openfeign.EnableFeignClients
 class ErTripConsumerApplication
 
 fun main(args: Array<String>) {
-    runApplication<ErTripServiceApplication>(*args)
+    runApplication<ErTripConsumerApplication>(*args)
 }
