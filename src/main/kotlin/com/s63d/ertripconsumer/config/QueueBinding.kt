@@ -22,7 +22,4 @@ class QueueBinding {
 
     @Bean
     fun jsonMessageConverter(): MessageConverter = Jackson2JsonMessageConverter()
-
-    data class LocationMessage(val tripId: Long = 0, val lat: Double = 0.0, val lon: Double = 0.0)
-
 }
