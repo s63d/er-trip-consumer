@@ -65,6 +65,7 @@ dependencies {
     compile("org.jetbrains.kotlin:kotlin-reflect")
     runtime('mysql:mysql-connector-java')
     testCompile('org.springframework.boot:spring-boot-starter-test')
+    runtime 'io.micrometer:micrometer-registry-prometheus:latest.release'
 }
 
 dependencyManagement {

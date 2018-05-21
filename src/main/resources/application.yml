@@ -11,7 +11,11 @@ spring:
       banner-mode: "off"
 server:
   port: 8083
-
+management:
+    endpoints:
+        web:
+            exposure:
+                include: prometheus, health, info
 ---
 spring:
   profiles: docker-compose
