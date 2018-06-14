@@ -9,6 +9,8 @@ spring:
         show-sql: true
     main:
       banner-mode: "off"
+    rabbitmq:
+      host: ersols.online
 server:
   port: 8083
 management:
@@ -25,7 +27,6 @@ spring:
       password: accounts
   jpa:
     show-sql: false
-  rabbitmq:
-    host: rabbitmq
+
 server:
   port: 8080
